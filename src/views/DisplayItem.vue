@@ -1,0 +1,58 @@
+<template>
+  <Sider></Sider>
+  <div class="Container">
+    <h2>一种用于高效处理海洋石油污水的复合菌剂及其制备方法</h2>
+    <n-h2 prefix="bar" align-text type="info">
+      基本信息
+    </n-h2>
+    <n-card
+        embedded
+        :bordered="false"
+    >
+      <p>作者:</p>
+      <p>成果类型：专利</p>
+      <p>专利编号：201810582988.5</p>
+      <p>授权机构：申请中</p>
+      <p>授权日期：2018</p>
+      <p>浏览次数：64 次</p>
+      <p>授权区域：中国</p>
+      <p>学术检索：百度学术</p>
+    </n-card>
+    <n-h2 prefix="bar" align-text type="info">
+      相关项目
+    </n-h2>
+    <img class="icon1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABkCAIAAADhSTKwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6REZERjA1RDE1RkFDMTFFQjk0QzhGM0EzQjk3MTBBOTEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6REZERjA1RDI1RkFDMTFFQjk0QzhGM0EzQjk3MTBBOTEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpERkRGMDVDRjVGQUMxMUVCOTRDOEYzQTNCOTcxMEE5MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpERkRGMDVEMDVGQUMxMUVCOTRDOEYzQTNCOTcxMEE5MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pt/A2wcAAAqsSURBVHja7J1bbBxX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" alt="">
+    <n-h2 prefix="bar" align-text type="info">
+      所属项目其他成果
+    </n-h2>
+  </div>
+</template>
+
+<script setup lang="ts">
+import Sider from '../views/SiderNav/nav.vue'
+import { useRoute, useRouter } from 'vue-router';
+import {onMounted} from "vue";
+const router=useRouter();
+const route=useRoute();
+onMounted(() => {
+  const id=route.query.id;
+  console.log(route.query.id);
+
+})
+
+</script>
+
+<style scoped>
+.icon1{
+  height: 40px;
+}
+.Container h2{
+  font-weight: bold;
+}
+.Container{
+  width: 100%;
+  height: 100%;
+  margin-left:100px;
+  margin-top: 50px;
+}
+</style>
